@@ -69,6 +69,12 @@ button {
     color: #ffffff;
 }
 
+a:focus,
+button:focus {
+    outline: 1px solid #ff000080;
+    outline-offset: unset;
+}
+
 html {
     overflow-x: hidden;
 }
@@ -158,6 +164,11 @@ body {
     width: 100%;
     padding: 15px 160px 15px 30px;
     outline: none;
+}
+
+.form__input:focus {
+    /* outline: 1px solid #5474fd; */
+    outline: 1px solid #ff000080;
 }
 
 input::placeholder {
